@@ -102,22 +102,22 @@ const DisplayWeatherData: React.FC<DisplayWeatherDataProps> = (props) => {
           </h5>
           <h5>
             <Thermometer style={{ color: "green" }} />
-            temp: {weather.main.temp + "C"}
+            temp: {Math.ceil(weather.main.temp) + "C"}
           </h5>
-          <h5>Feels Like: {weather.main.feels_like + "C"}</h5>
+          <h5>Feels Like: {Math.ceil(weather.main.feels_like) + "C"}</h5>
           <h5>
             <ThermometerHigh style={{ color: "red" }} /> temp_max:{" "}
-            {weather.main.temp_max + "C"}
+            {Math.ceil(weather.main.temp_max) + "C"}
           </h5>
           <h5>
             <ThermometerLow style={{ color: "blue" }} />
-            temp_min : {weather.main.temp_min + "C"}
+            temp_min : {Math.ceil(weather.main.temp_min) + "C"}
           </h5>
           <h5>
             <Wind style={{ color: "white" }} />
-            Wind Speed : {weather.wind.speed}
+            Wind Speed : {Math.ceil(weather.wind.speed) + "km/h"}
           </h5>
-          <h5>Pressure: {weather.main.pressure}</h5>
+          <h5>Pressure: {Math.ceil(weather.main.pressure)}</h5>
         </div>
       ) : (
         ""
