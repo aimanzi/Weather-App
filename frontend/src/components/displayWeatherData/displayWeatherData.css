@@ -1,0 +1,42 @@
+.mainfetch-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.weathertemp-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin-top: 20px;
+    left: 40%;
+    width: 320px;
+    height: 300px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.mainfetch-container input {
+    padding: 5px 0;
+    border: none;
+    text-align: center;
+    margin-right: 5px;
+}
+
+
+.mainfetch-container .btn-group {
+    margin-left: 5px;
+}
+
+.msg-container {
+
+    color: red;
+    text-align: center;
+}

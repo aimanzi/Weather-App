@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.list-button {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 95%;
+    color: blue;
+}
+
+.collapse-container {
+    position: relative;
+    right: 33%;
+}
+
+.link {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+    margin: 0 30px;
+}
+
+.collapse-container .link:hover {
+    color: white;
+    text-decoration: underline;
+}

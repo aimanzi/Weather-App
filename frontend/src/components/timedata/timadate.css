@@ -1,0 +1,15 @@
+.timedata-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.timedata-container .time-container {
+    margin-right: 50px;
+}
+
+.timedata-container .name-container {
+    color:darkred;
+    font-weight: bold;
+    font-size:larger;
+}

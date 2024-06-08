@@ -1,0 +1,58 @@
+.singInForm {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0 20px 0;
+    width: fit-content;
+    -webkit-border-radius: 20px 0 20px 0;
+    position: relative;
+    top: 90px;
+    left: 40%;
+    padding: 2em 2em 0 2em;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    -moz-border-radius: 20px 0 20px 0;
+    -ms-border-radius: 20px 0 20px 0;
+    -o-border-radius: 20px 0 20px 0;
+}
+
+.singInForm h6 {
+    color: red;
+}
+
+.register-link {
+    text-align: center;
+}
+
+.register-link .link {
+    text-decoration: none;
+}
+
+.singInForm .msg-container {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    color: red;
+    padding: 10px 0;
+}
+
+
+
+
+/* .singInForm .input-contaner {
+    display: flex;
+    justify-content: space-between;
+    margin: 3dvb;
+}
+
+.input-contaner label {
+    font-size: large;
+    font-weight: 700;
+    font-family: cursive;
+    color: white;
+}
+
+.input-contaner input {
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+} */
