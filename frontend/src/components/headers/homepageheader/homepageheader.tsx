@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import "./homepageheader.css";
-import { Collapse, Nav} from "react-bootstrap";
+import { Collapse, Nav } from "react-bootstrap";
 import { List } from "react-bootstrap-icons";
 
 interface HeaderProps {}
@@ -27,9 +27,6 @@ const Header: React.FC<HeaderProps> = (props) => {
               </Link>
               <Link to={"/signup"} className="link">
                 Sign Up
-              </Link>
-              <Link to={"/signin"} className="link">
-                About Us
               </Link>
             </div>
           </Collapse>
