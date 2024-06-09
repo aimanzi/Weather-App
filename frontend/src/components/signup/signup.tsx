@@ -85,10 +85,12 @@ const Signup: React.FC<SignupProps> = (props) => {
         console.log(data);
         if (data.staus === true) {
           ClearInputs();
+          setIsLOder(false);
         } else {
           if (data.message.errorResponse.code === 11000) {
             setIsModalShow(true);
             setMsg("User is exists,change mail");
+            setIsLOder(false);
           }
         }
       })
